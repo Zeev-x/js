@@ -11,7 +11,7 @@ function zeev(){
       var data = JSON.parse(x.responseText);
       var rand = Math.floor(Math.random()*data.length);
       var result = data[rand].img;
-      var web = `<img src="${result}" height="${height}px">`
+      var web = `<img href="${result}" src="${result}" height="${height}px">`
       document.getElementById(out).innerHTML = web;
     }
   };

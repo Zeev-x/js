@@ -1,0 +1,18 @@
+      body {
+        font-family: Monospace,Arial,Comic,Sans-Serif;
+      }
+      .container h1,h6{
+        text-align: center;
+      }
+      .container {
+        width: 75%;
+        max-width: 900px;
+        padding: 15px;
+        background-color: #ffffff9c;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 20px;
+        }
+        .github {
+          text-align: center;
+        }

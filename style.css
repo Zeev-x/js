@@ -1,18 +1,46 @@
       body {
-        font-family: Monospace,Arial,Comic,Sans-Serif;
+        background-color: #ffffff;
+        padding: 0px;
+        margin: 0px;
       }
-      .container h1,h6{
+      .logo {
+        font-family: Monospace;
+        color: #000000;
+        font-size: 40px;
+        font-weight: bold;
+      }
+      ul {
+        list-style: none;
+      }
+      a {
+        text-decoration: none;
+      }
+      nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 60px;
+        background-clip: #FFFFFF;
+        box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+        padding: 0px 5%;
+      }
+      nav ul {
+        display: flex;
+      }
+      nav ul li a {
+        margin: 30px;
+        font-family: mirad pro regular;
+        color: #505050;
+        font-size: 15px;
+        font-weight: 700;
+      }
+      .active {
+        color: #2d2a2a;
+        font-weight: bold;
+      }
+      .content {
+        padding: 10px 100px;
+      }
+      .github {
         text-align: center;
       }
-      .container {
-        width: 75%;
-        max-width: 900px;
-        padding: 15px;
-        background-color: #ffffff9c;
-        margin-left: auto;
-        margin-right: auto;
-        border-radius: 20px;
-        }
-        .github {
-          text-align: center;
-        }

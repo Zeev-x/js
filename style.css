@@ -3,11 +3,13 @@
         padding: 0px;
         margin: 0px;
       }
-      .logo {
+      #logo {
         font-family: Monospace;
         color: #000000;
-        font-size: 40px;
+        font-size: 30px;
         font-weight: bold;
+        border: none;
+        background-color: transparent;
       }
       ul {
         list-style: none;
@@ -21,26 +23,34 @@
         align-items: center;
         height: 60px;
         background-clip: #FFFFFF;
-        box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+        box-shadow: 3px 3px 16px black;
         padding: 0px 5%;
       }
       nav ul {
         display: flex;
       }
-      nav ul li a {
-        margin: 30px;
-        font-family: mirad pro regular;
+      nav ul li button {
+        margin: 20px;
+        font-family: Courier;
         color: #505050;
-        font-size: 15px;
+        font-size: 25px;
         font-weight: 700;
-      }
-      .active {
-        color: #2d2a2a;
-        font-weight: bold;
+        border: none;
+        background-color: transparent;
       }
       .content {
-        padding: 10px 100px;
+        padding: 25px;
+        font-family: Courier;
+        font-weight: bold;
       }
-      .github {
-        text-align: center;
+      #con_home {
+        display: none;
+      }
+      #con_about {
+        display: none;
+      }
+      .clr {
+        color: red;
+        font-family: Courier;
+        font-weight: bold;
       }

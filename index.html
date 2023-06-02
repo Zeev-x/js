@@ -7,26 +7,36 @@
   </head>
   <body>
     <nav>
-      <a class="logo" href="#"> W e l c o m e</a>
+      <button onclick="home()" id="logo">Welcome</button>
       <ul>
-        <li><a class="active" href="#">Home</a></li>
-        <li><a href="#">About</a></li>
+        <li><button id="btn_home" onclick="home()">Home</button></li>
+        <li><button id="btn_about" onclick="about()">About</button></li>
       </ul>
     </nav>
     <div class="content">
-      <h3>About Zeev-x</h3>
-      <p><a href="https://github.com/Zeev-x/">Zeev-x</a> is a beginner website designer who still needs to learn a lot about designing websites, so if you want to provide input, I will really appreciate it and I'm very grateful for your input. You can find a repository that doesn't know what it's used for on <a href="https://github.com/Zeev-x/">Zeev-x's Github</a>.</p>
-    <div class="github">
-      <img src="https://github-readme-stats.vercel.app/api?username=Zeev-x&show_icons=true&include_all_commits=true&theme=cobalt&hide_border=true" width="300px"> 
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Zeev-x&layout=compact&theme=cobalt&hide_border=true" width="225px">
+      <div id="con_home">
+        <h1>Mengenal dunia website</h1>
+        <p> Situs web (<a class="clr">bahasa Inggris: website</a>) adalah sekumpulan halaman web yang saling berhubungan yang umumnya berada pada peladen yang sama berisikan kumpulan informasi yang disediakan secara perorangan, kelompok, atau organisasi.Sebuah situs web biasanya ditempatkan setidaknya pada sebuah server web yang dapat diakses melalui jaringan seperti Internet, ataupun jaringan area lokal (LAN) melalui alamat Internet yang dikenali sebagai URL. Gabungan atas semua situs yang dapat diakses publik di Internet disebut pula sebagai World Wide Web atau lebih dikenal dengan singkatan WWW. </p><br><br>
+        <h3>1.Perancangan web</h3>
+        <p>Perancangan web (<a class="clr">web design</a>) adalah istilah umum yang digunakan untuk mencakup bagaimana isi web konten ditampilkan, (<a class="clr">biasanya berupa hypertext atau hypermedia</a>) yang dikirimkan ke pengguna akhir melalui World Wide Web, dengan menggunakan sebuah browser web atau perangkat lunak berbasis web. Tujuan dari web design adalah untuk membuat website—sekumpulan konten online termasuk dokumen dan aplikasi yang berada pada server web / server. Sebuah website dapat berupa sekumpulan teks, gambar, suara dan konten lainnya, serta dapat bersifat interaktif ataupun statis.</p><br><br><br>
+        <h3>2.Perancang web</h3>
+        <p>Perancang web atau desainer web (<a class="clr">web designer</a>) adalah orang yang memiliki keahlian menciptakan konten presentasi (<a class="clr">biasanya hypertext atau hypermedia</a>) yang dikirimkan ke pengguna-akhir melalui World Wide Web, menggunakan Web browser atau perangkat lunak Web-enabled lain seperti televisi internet, Microblogging, RSS, dan sebagainya.Dengan berkembangnya spesialisasi dalam desain komunikasi dan bidang teknologi informasi, ada kecenderungan kuat untuk menarik garis yang jelas antara web design khusus untuk halaman web dan pengembangan web secara keseluruhan dari semua layanan berbasis web.</p><br><br>
+        <h3>3.Jenis-jenis layout website</h3>
+        <p>Layout atau tata letak (<a class="clr">dalam bahasa indonesia</a>) dibutuhkan untuk mengatur bagaimana isi sebuah konten website. Jenis-jenis tata letak website antara lain: </p>
+        <p>• Fixed Layout</p>
+        <p>• Liquid Layout</p>
+        <p>• Responsive Layout</p>
+      </div>
+      <div id="con_about">
+        <h3>1.About Zeev-x</h3>
+        <p><a class="clr" href="https://github.com/Zeev-x/">Zeev-x</a> is a beginner website designer who still needs to learn a lot about designing websites, so if you want to provide input, I will really appreciate it and I'm very grateful for your input. You can find a repository that doesn't know what it's used for on <a class="clr" href="https://github.com/Zeev-x/">Zeev-x's Github</a>.</p>
+        <div class="github">
+          <img src="https://github-readme-stats.vercel.app/api?username=Zeev-x&show_icons=true&include_all_commits=true&theme=cobalt&hide_border=true" width="300px"> 
+          <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Zeev-x&layout=compact&theme=cobalt&hide_border=true" width="225px">
       </div>
     </div>
-    <!--
-    <script>
-      const zcr = "https://zeev-x.github.io/js/json/azey.json";
-    </script>
-    <script src="https://zeev-x.github.io/js/style.js"></script>
-    <div id="style"></div>
-    -->
+      </div>
+    </div>
+    <script src="main.js"></script>
   </body>
 </html>

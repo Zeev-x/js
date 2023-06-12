@@ -168,6 +168,23 @@ function nino(){
   };
   x.send();
 }
+function nsfw(){
+  const x = new XMLHttpRequest();
+  const url = "https://zeev-x.github.io/js/json/nsfw.json";
+  const method = "GET";
+  
+  x.open(method,url,true);
+  x.onreadystatechange = function(){
+    if(this.readyState == 4 && this.status == 200){
+      var data = JSON.parse(x.responseText);
+      data.forEach(function(result){
+        var web = `<a href="${result.img}"><img src="${result.img}" height="200px"></a>`;
+        document.getElementById("result").innerHTML += web;
+      });
+    }
+  };
+  x.send();
+}
 function yor(){
   const x = new XMLHttpRequest();
   const url = "https://zeev-x.github.io/js/json/yor.json";

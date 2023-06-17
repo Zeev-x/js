@@ -1,3 +1,5 @@
+const height = "480px";
+
 function azey(){
   const x = new XMLHttpRequest();
   const url = "https://zeev-x.github.io/js/json/azey.json";
@@ -8,7 +10,7 @@ function azey(){
     if(this.readyState == 4 && this.status == 200){
       var data = JSON.parse(x.responseText);
       data.forEach(function(result){
-        var web = `<a href="${result.img}"><img src="${result.img}" height="200px"></a>`;
+        var web = `<a href="${result.img}"><img src="${result.img}" height="${height}"></a>`;
         document.getElementById("result").innerHTML += web;
       });
     }
@@ -25,7 +27,7 @@ function kiwora(){
     if(this.readyState == 4 && this.status == 200){
       var data = JSON.parse(x.responseText);
       data.forEach(function(result){
-        var web = `<a href="${result.img}"><img src="${result.img}" height="200px"></a>`;
+        var web = `<a href="${result.img}"><img src="${result.img}" height="${height}"></a>`;
         document.getElementById("result").innerHTML += web;
       });
     }
@@ -42,7 +44,7 @@ function albedo(){
     if(this.readyState == 4 && this.status == 200){
       var data = JSON.parse(x.responseText);
       data.forEach(function(result){
-        var web = `<a href="${result.img}"><img src="${result.img}" height="200px"></a>`;
+        var web = `<a href="${result.img}"><img src="${result.img}" height="${height}"></a>`;
         document.getElementById("result").innerHTML += web;
       });
     }
@@ -59,7 +61,7 @@ function cosplay(){
     if(this.readyState == 4 && this.status == 200){
       var data = JSON.parse(x.responseText);
       data.forEach(function(result){
-        var web = `<a href="${result.img}"><img src="${result.img}" height="200px"></a>`;
+        var web = `<a href="${result.img}"><img src="${result.img}" height="${height}"></a>`;
         document.getElementById("result").innerHTML += web;
       });
     }
@@ -76,7 +78,7 @@ function ecchi(){
     if(this.readyState == 4 && this.status == 200){
       var data = JSON.parse(x.responseText);
       data.forEach(function(result){
-        var web = `<a href="${result.img}"><img src="${result.img}" height="200px"></a>`;
+        var web = `<a href="${result.img}"><img src="${result.img}" height="${height}"></a>`;
         document.getElementById("result").innerHTML += web;
       });
     }
@@ -93,7 +95,7 @@ function houshou(){
     if(this.readyState == 4 && this.status == 200){
       var data = JSON.parse(x.responseText);
       data.forEach(function(result){
-        var web = `<a href="${result.img}"><img src="${result.img}" height="200px"></a>`;
+        var web = `<a href="${result.img}"><img src="${result.img}" height="${height}"></a>`;
         document.getElementById("result").innerHTML += web;
       });
     }
@@ -110,7 +112,7 @@ function loli(){
     if(this.readyState == 4 && this.status == 200){
       var data = JSON.parse(x.responseText);
       data.forEach(function(result){
-        var web = `<a href="${result.img}"><img src="${result.img}" height="200px"></a>`;
+        var web = `<a href="${result.img}"><img src="${result.img}" height="${height}"></a>`;
         document.getElementById("result").innerHTML += web;
       });
     }
@@ -127,7 +129,7 @@ function miku(){
     if(this.readyState == 4 && this.status == 200){
       var data = JSON.parse(x.responseText);
       data.forEach(function(result){
-        var web = `<a href="${result.img}"><img src="${result.img}" height="200px"></a>`;
+        var web = `<a href="${result.img}"><img src="${result.img}" height="${height}"></a>`;
         document.getElementById("result").innerHTML += web;
       });
     }
@@ -144,7 +146,7 @@ function neko(){
     if(this.readyState == 4 && this.status == 200){
       var data = JSON.parse(x.responseText);
       data.forEach(function(result){
-        var web = `<a href="${result.img}"><img src="${result.img}" height="200px"></a>`;
+        var web = `<a href="${result.img}"><img src="${result.img}" height="${height}"></a>`;
         document.getElementById("result").innerHTML += web;
       });
     }
@@ -161,7 +163,7 @@ function nino(){
     if(this.readyState == 4 && this.status == 200){
       var data = JSON.parse(x.responseText);
       data.forEach(function(result){
-        var web = `<a href="${result.img}"><img src="${result.img}" height="200px"></a>`;
+        var web = `<a href="${result.img}"><img src="${result.img}" height="${height}"></a>`;
         document.getElementById("result").innerHTML += web;
       });
     }
@@ -178,7 +180,7 @@ function nsfw(){
     if(this.readyState == 4 && this.status == 200){
       var data = JSON.parse(x.responseText);
       data.forEach(function(result){
-        var web = `<a href="${result.img}"><img src="${result.img}" height="200px"></a>`;
+        var web = `<a href="${result.img}"><img src="${result.img}" height="${height}"></a>`;
         document.getElementById("result").innerHTML += web;
       });
     }
@@ -195,7 +197,7 @@ function yor(){
     if(this.readyState == 4 && this.status == 200){
       var data = JSON.parse(x.responseText);
       data.forEach(function(result){
-        var web = `<a href="${result.img}"><img src="${result.img}" height="200px"></a>`;
+        var web = `<a href="${result.img}"><img src="${result.img}" height="${height}"></a>`;
         document.getElementById("result").innerHTML += web;
       });
     }
@@ -212,7 +214,7 @@ function yumeko(){
     if(this.readyState == 4 && this.status == 200){
       var data = JSON.parse(x.responseText);
       data.forEach(function(result){
-        var web = `<a href="${result.img}"><img src="${result.img}" height="200px"></a>`;
+        var web = `<a href="${result.img}"><img src="${result.img}" height="${height}"></a>`;
         document.getElementById("result").innerHTML += web;
       });
     }
@@ -229,7 +231,7 @@ function zero(){
     if(this.readyState == 4 && this.status == 200){
       var data = JSON.parse(x.responseText);
       data.forEach(function(result){
-        var web = `<a href="${result.img}"><img src="${result.img}" height="200px"></a>`;
+        var web = `<a href="${result.img}"><img src="${result.img}" height="${height}"></a>`;
         document.getElementById("result").innerHTML += web;
       });
     }
@@ -246,7 +248,7 @@ function gawr(){
     if(this.readyState == 4 && this.status == 200){
       var data = JSON.parse(x.responseText);
       data.forEach(function(result){
-        var web = `<a href="${result.img}"><img src="${result.img}" height="200px"></a>`;
+        var web = `<a href="${result.img}"><img src="${result.img}" height="${height}"></a>`;
         document.getElementById("result").innerHTML += web;
       });
     }
@@ -263,7 +265,7 @@ function stars(){
     if(this.readyState == 4 && this.status == 200){
       var data = JSON.parse(x.responseText);
       data.forEach(function(result){
-        var web = `<a href="${result.img}"><img src="${result.img}" height="200px"></a>`;
+        var web = `<a href="${result.img}"><img src="${result.img}" height="${height}"></a>`;
         document.getElementById("result").innerHTML += web;
       });
     }

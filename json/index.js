@@ -18,9 +18,7 @@ function azey(){
   x.send();
 }
 function kiwora(){
-  const x = new XMLHttpRequest();
   const url = "https://zeev-x.github.io/js/json/kiwora.json";
-  const method = "GET";
   
   x.open(method,url,true);
   x.onreadystatechange = function(){
@@ -35,9 +33,7 @@ function kiwora(){
   x.send();
 }
 function albedo(){
-  const x = new XMLHttpRequest();
   const url = "https://zeev-x.github.io/js/json/albedo.json";
-  const method = "GET";
   
   x.open(method,url,true);
   x.onreadystatechange = function(){
@@ -52,9 +48,7 @@ function albedo(){
   x.send();
 }
 function cosplay(){
-  const x = new XMLHttpRequest();
   const url = "https://zeev-x.github.io/js/json/cosplay.json";
-  const method = "GET";
   
   x.open(method,url,true);
   x.onreadystatechange = function(){
@@ -69,9 +63,7 @@ function cosplay(){
   x.send();
 }
 function ecchi(){
-  const x = new XMLHttpRequest();
   const url = "https://zeev-x.github.io/js/json/ecchi.json";
-  const method = "GET";
   
   x.open(method,url,true);
   x.onreadystatechange = function(){
@@ -86,9 +78,7 @@ function ecchi(){
   x.send();
 }
 function houshou(){
-  const x = new XMLHttpRequest();
   const url = "https://zeev-x.github.io/js/json/houshou.json";
-  const method = "GET";
   
   x.open(method,url,true);
   x.onreadystatechange = function(){
@@ -103,9 +93,7 @@ function houshou(){
   x.send();
 }
 function loli(){
-  const x = new XMLHttpRequest();
   const url = "https://zeev-x.github.io/js/json/loli.json";
-  const method = "GET";
   
   x.open(method,url,true);
   x.onreadystatechange = function(){
@@ -120,9 +108,7 @@ function loli(){
   x.send();
 }
 function miku(){
-  const x = new XMLHttpRequest();
   const url = "https://zeev-x.github.io/js/json/miku.json";
-  const method = "GET";
   
   x.open(method,url,true);
   x.onreadystatechange = function(){
@@ -137,9 +123,7 @@ function miku(){
   x.send();
 }
 function neko(){
-  const x = new XMLHttpRequest();
   const url = "https://zeev-x.github.io/js/json/neko.json";
-  const method = "GET";
   
   x.open(method,url,true);
   x.onreadystatechange = function(){
@@ -154,9 +138,7 @@ function neko(){
   x.send();
 }
 function nino(){
-  const x = new XMLHttpRequest();
   const url = "https://zeev-x.github.io/js/json/nino.json";
-  const method = "GET";
   
   x.open(method,url,true);
   x.onreadystatechange = function(){
@@ -171,9 +153,7 @@ function nino(){
   x.send();
 }
 function nsfw(){
-  const x = new XMLHttpRequest();
   const url = "https://zeev-x.github.io/js/json/nsfw.json";
-  const method = "GET";
   
   x.open(method,url,true);
   x.onreadystatechange = function(){
@@ -188,9 +168,7 @@ function nsfw(){
   x.send();
 }
 function yor(){
-  const x = new XMLHttpRequest();
   const url = "https://zeev-x.github.io/js/json/yor.json";
-  const method = "GET";
   
   x.open(method,url,true);
   x.onreadystatechange = function(){
@@ -205,9 +183,7 @@ function yor(){
   x.send();
 }
 function yumeko(){
-  const x = new XMLHttpRequest();
   const url = "https://zeev-x.github.io/js/json/yumeko.json";
-  const method = "GET";
   
   x.open(method,url,true);
   x.onreadystatechange = function(){
@@ -222,9 +198,7 @@ function yumeko(){
   x.send();
 }
 function zero(){
-  const x = new XMLHttpRequest();
   const url = "https://zeev-x.github.io/js/json/zero.json";
-  const method = "GET";
   
   x.open(method,url,true);
   x.onreadystatechange = function(){
@@ -239,9 +213,7 @@ function zero(){
   x.send();
 }
 function gawr(){
-  const x = new XMLHttpRequest();
   const url = "https://zeev-x.github.io/js/json/gawr.json";
-  const method = "GET";
   
   x.open(method,url,true);
   x.onreadystatechange = function(){
@@ -256,9 +228,7 @@ function gawr(){
   x.send();
 }
 function stars(){
-  const x = new XMLHttpRequest();
   const url = "https://zeev-x.github.io/js/json/stars.json";
-  const method = "GET";
   
   x.open(method,url,true);
   x.onreadystatechange = function(){

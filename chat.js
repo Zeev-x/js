@@ -1,4 +1,6 @@
 const app = new XMLHttpRequest();
+//const sesi = "./session.txt";
+//const create = "./data.php";
 
 function view(){
   const send = document.getElementById("view");
@@ -7,7 +9,7 @@ function view(){
       send.innerHTML = this.responseText;
     }
   };
-  app.open("GET","./session.txt",true);
+  app.open("GET",sesi,true);
   app.send();
 }
 
@@ -21,7 +23,7 @@ function chat(){
       this.responseText;
     }
   };
-  app.open("POST","./chat.php",true);
+  app.open("POST",create,true);
   app.setRequestHeader("Content-type","application/x-www-form-urlencoded");
   app.send("data="+text);
 }
